@@ -1,0 +1,130 @@
+:root {
+  /* GENERAL COLOR VARIABLES */
+  --qelp-link:#D73754;
+  --qelp-link-hover:#BB2541;
+  --qelp-link-active:#80192C;
+  --qelp-accent:#FFC421;
+  --qelp-accent-hover:#E6A800;
+  --qelp-accent-active:#B38300;
+  --qelp-headers:#58595B;
+  --qelp-headers-hover:#3E3F41;
+  --qelp-headers-active:#252627;
+  --qelp-body:#575756;
+  --qelp-body-hover:#40403F;
+  --qelp-body-active:#272726;
+  --qelp-muted:#898989;
+  --qelp-muted-hover:#737373;
+  --qelp-muted-active:#595959;
+  --qelp-line:#E3E6E8;
+  --qelp-line-hover:#C7CED1;
+  --qelp-line-active:#ABB5BA;
+  --qelp-tint:#F3F4F5;
+  --qelp-tint-hover:#D5D9DC;
+  --qelp-tint-active:#BABFC5;
+  --qelp-light:#FFFFFF;
+  --qelp-background:#FFFFFF;
+  --qelp-qlicker:#FFC421;
+  --qelp-qlicker-pulse:#E6A800;
+  --qelp-error:#BA0000;
+
+  /* FONT VARIABLES */
+  --qelp-font-family: 'bloomSpeakBodyMedium';
+  --qelp-font-family-light: 'bloomSpeakBodyMedium';
+  --qelp-font-family-bold: 'bloomSpeakTitleUltraHeavy';
+
+  --qelp-h1-desktop-font-size: 48px;
+  --qelp-h1-desktop-line-height: 60px;
+  --qelp-h1-desktop-font-weight: 400;
+
+  --qelp-h1-mobile-font-size: 32px;
+  --qelp-h1-mobile-line-height: 40px;
+  --qelp-h1-mobile-font-weight: 400;
+
+  --qelp-h2-font-size: 24px;
+  --qelp-h2-line-height: 35px;
+  --qelp-h2-font-weight: 400;
+
+  --qelp-h3-font-size: 20px;
+  --qelp-h3-line-height: 30px;
+  --qelp-h3-font-weight: 400;
+
+  --qelp-body-font-size: 16px;
+  --qelp-body-line-height: 22px;
+  --qelp-body-font-weight: 400;
+
+  --qelp-small-font-size: 12px;
+  --qelp-small-line-height: 15px;
+  --qelp-small-font-weight: 400;
+
+  /* BUTTON VARIABLES */
+
+  /* Normal - size and font */
+  --qelp-button-normal-font-size: 14px;
+  --qelp-button-normal-line-height: 13px;
+  --qelp-button-normal-font-weight: 600;
+  --qelp-button-normal-min-width: 68px;
+
+  /* Large - size and font */
+  --qelp-button-large-font-size: 16px;
+  --qelp-button-large-line-height: 13px;
+  --qelp-button-large-font-weight: 600;
+  --qelp-button-large-min-width: 78px;
+
+  /* Primary - styles and colors */
+  --qelp-button-primary-background-color: #D73754;
+  --qelp-button-primary-color: #FFFFFF;
+  --qelp-button-primary-text-decoration: none;
+
+  --qelp-button-primary-hover-background-color: #BB2541;
+  --qelp-button-primary-hover-color: #FFFFFF;
+  --qelp-button-primary-hover-text-decoration: none;
+
+  --qelp-button-primary-focus-border: 1px solid #FFFFFF;
+  --qelp-button-primary-focus-outline: none;
+  --qelp-button-primary-focus-text-decoration: none;
+  --qelp-button-primary-focus-background-color: #D73754;
+  --qelp-button-primary-focus-color: #FFFFFF;
+  --qelp-button-primary-focus-box-shadow: 0 0 0 1px #333333;
+
+  --qelp-button-primary-active-text-decoration: none;
+  --qelp-button-primary-active-background-color: #80192C;
+  --qelp-button-primary-active-color: #FFFFFF;
+
+  --qelp-button-primary-disabled-text-decoration: none;
+  --qelp-button-primary-disabled-background-color: #898989;
+  --qelp-button-primary-disabled-color: #FFFFFF;
+
+  /* Secondary - styles and colors */
+  --qelp-button-secondary-background-color: transparent;
+  --qelp-button-secondary-color: #575756;
+  --qelp-button-secondary-border: 1px solid #575756;
+  --qelp-button-secondary-text-decoration: none;
+
+  --qelp-button-secondary-hover-text-decoration: none;
+  --qelp-button-secondary-hover-border: 1px solid #40403F;
+  --qelp-button-secondary-hover-color: #40403F;
+  --qelp-button-secondary-hover-background-color: transparent;
+
+  --qelp-button-secondary-focus-outline: none;
+  --qelp-button-secondary-focus-text-decoration: none;
+  --qelp-button-secondary-focus-border: 1px solid #575756;
+  --qelp-button-secondary-focus-color: #575756;
+  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #575756;
+  --qelp-button-secondary-focus-background-color: transparent;
+
+  --qelp-button-secondary-active-text-decoration: none;
+  --qelp-button-secondary-active-border: 1px solid #40403F;
+  --qelp-button-secondary-active-color: #40403F;
+  --qelp-button-secondary-active-background-color: transparent;
+
+  --qelp-button-secondary-disabled-text-decoration: none;
+  --qelp-button-secondary-disabled-border: 1px solid #898989;
+  --qelp-button-secondary-disabled-color: #898989;
+  --qelp-button-secondary-disabled-background-color: transparent;
+
+  /* Others button rules - general */
+  --qelp-button-border-radius: 5px;
+
+  /* GENERAL VARIABLES */
+  --qelp-space-unit: 5px;
+}
