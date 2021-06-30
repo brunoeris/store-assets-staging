@@ -1,0 +1,130 @@
+:root {
+  /* GENERAL COLOR VARIABLES */
+  --qelp-link:#ED0000;
+  --qelp-link-hover:#B30000;
+  --qelp-link-active:#800000;
+  --qelp-accent:#68B631;
+  --qelp-accent-hover:#518D25;
+  --qelp-accent-active:#3A651B;
+  --qelp-headers:#ED0000;
+  --qelp-headers-hover:#B30000;
+  --qelp-headers-active:#800000;
+  --qelp-body:#312332;
+  --qelp-body-hover:#1A1A1A;
+  --qelp-body-active:#000000;
+  --qelp-muted:#E1E1E1;
+  --qelp-muted-hover:#CCCCCC;
+  --qelp-muted-active:#B3B3B3;
+  --qelp-line:#999999;
+  --qelp-line-hover:#808080;
+  --qelp-line-active:#666666;
+  --qelp-tint:#E1E1E1;
+  --qelp-tint-hover:#CCCCCC;
+  --qelp-tint-active:#B3B3B3;
+  --qelp-light:#FFFFFF;
+  --qelp-background:#E1E1E1;
+  --qelp-qlicker:#68B631;
+  --qelp-qlicker-pulse:#518D25;
+  --qelp-error:#CD0400;
+
+  /* FONT VARIABLES */
+  --qelp-font-family: 'VM Circular Book';
+  --qelp-font-family-light: 'VM Circular Book';
+  --qelp-font-family-bold: 'VM Circular Book';
+
+  --qelp-h1-desktop-font-size: 42px;
+  --qelp-h1-desktop-line-height: 60px;
+  --qelp-h1-desktop-font-weight: 800;
+
+  --qelp-h1-mobile-font-size: 30px;
+  --qelp-h1-mobile-line-height: 40px;
+  --qelp-h1-mobile-font-weight: 800;
+
+  --qelp-h2-font-size: 24px;
+  --qelp-h2-line-height: 35px;
+  --qelp-h2-font-weight: 700;
+
+  --qelp-h3-font-size: 18px;
+  --qelp-h3-line-height: 30px;
+  --qelp-h3-font-weight: 400;
+
+  --qelp-body-font-size: 16px;
+  --qelp-body-line-height: 22px;
+  --qelp-body-font-weight: 400;
+
+  --qelp-small-font-size: 13px;
+  --qelp-small-line-height: 15px;
+  --qelp-small-font-weight: 400;
+
+  /* BUTTON VARIABLES */
+
+  /* Normal - size and font */
+  --qelp-button-normal-font-size: 16px;
+  --qelp-button-normal-line-height: 15px;
+  --qelp-button-normal-font-weight: 700;
+  --qelp-button-normal-min-width: 68px;
+
+  /* Large - size and font */
+  --qelp-button-large-font-size: 18px;
+  --qelp-button-large-line-height: 15px;
+  --qelp-button-large-font-weight: 700;
+
+  /* Primary - styles and colors */
+  --qelp-button-primary-background-color: #ED0000;
+  --qelp-button-primary-color: #FFFFFF;
+  --qelp-button-primary-text-decoration: none;
+
+  --qelp-button-primary-hover-background-color: #B30000;
+  --qelp-button-primary-hover-color: #FFFFFF;
+  --qelp-button-primary-hover-text-decoration: none;
+
+  --qelp-button-primary-focus-border: 1px solid transparent;
+  --qelp-button-primary-focus-outline: none;
+  --qelp-button-primary-focus-text-decoration: none;
+  --qelp-button-primary-focus-background-color: #ED0000;
+  --qelp-button-primary-focus-color: #FFFFFF;
+  --qelp-button-primary-focus-box-shadow: 0 0 0 1px #333333;
+
+  --qelp-button-primary-active-text-decoration: none;
+  --qelp-button-primary-active-background-color: #800000;
+  --qelp-button-primary-active-color: #FFFFFF;
+
+  --qelp-button-primary-disabled-text-decoration: none;
+  --qelp-button-primary-disabled-background-color: #999999;
+  --qelp-button-primary-disabled-color: #FFFFFF;
+
+  /* Secondary - styles and colors */
+  --qelp-button-secondary-background-color: transparent;
+  --qelp-button-secondary-color: #ED0000;
+  --qelp-button-secondary-border: 1px solid #ED0000;
+  --qelp-button-secondary-text-decoration: none;
+
+  --qelp-button-secondary-hover-text-decoration: none;
+  --qelp-button-secondary-hover-border: 1px solid #B30000;
+  --qelp-button-secondary-hover-color: #B30000;
+  --qelp-button-secondary-hover-background-color: transparent;
+
+  --qelp-button-secondary-focus-outline: none;
+  --qelp-button-secondary-focus-text-decoration: none;
+  --qelp-button-secondary-focus-border: 1px solid #ED0000;
+  --qelp-button-secondary-focus-color: #ED0000;
+  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #333333;
+  --qelp-button-secondary-focus-background-color: transparent;
+
+  --qelp-button-secondary-active-text-decoration: none;
+  --qelp-button-secondary-active-border: 1px solid #800000;
+  --qelp-button-secondary-active-color: #800000;
+  --qelp-button-secondary-active-background-color: transparent;
+
+  --qelp-button-secondary-disabled-text-decoration: none;
+  --qelp-button-secondary-disabled-border: 1px solid #999999;
+  --qelp-button-secondary-disabled-color: #999999;
+  --qelp-button-secondary-disabled-background-color: transparent;
+
+
+  /* Others - general */
+  --qelp-button-border-radius: 50px;
+
+  /* GENERAL VARIABLES */
+  --qelp-space-unit: 5px;
+}
