@@ -3,12 +3,21 @@
   --qelp-link:#CD0400;
   --qelp-link-hover:#DF2700;
   --qelp-link-active:#801500;
+  --qelp-link-secondary:#595B61;
+  --qelp-link-secondary-hover:#3F4145;
+  --qelp-link-secondary-active:#27282B;
   --qelp-accent:#CD0400;
   --qelp-accent-hover:#DF2700;
   --qelp-accent-active:#801500;
   --qelp-headers:#000000;
   --qelp-headers-hover:#000000;
   --qelp-headers-active:#000000;
+  --qelp-headers-secondary:#000000;
+  --qelp-headers-secondary-hover:#000000;
+  --qelp-headers-secondary-active:#000000;
+  --qelp-headers-dark-bg:#FFFFFF;
+  --qelp-headers-dark-bg-hover:#FFFFFF;
+  --qelp-headers-dark-bg-active:#FFFFFF;
   --qelp-body:#444444;
   --qelp-body-hover:#262626;
   --qelp-body-active:#0D0D0D;
@@ -23,35 +32,73 @@
   --qelp-tint-active:#BABFC5;
   --qelp-light:#FFFFFF;
   --qelp-background:#F5F5F5;
+  --qelp-background-accent:#FDEDD3;
+  --qelp-background-light:#F6F6F6;
+  --qelp-background-dark:#000000;
   --qelp-qlicker:#CD0400;
   --qelp-qlicker-pulse:#DF2700;
   --qelp-error:#CD0400;
 
   /* FONT VARIABLES */
   --qelp-font-family: 'Mr Alex';
-  --qelp-font-family-light: 'Mr Alex';
-  --qelp-font-family-bold: 'Mr Alex';
+  --qelp-font-family-light: 'Mr Alex Light';
+  --qelp-font-family-bold: 'Mr Alex Bold';
 
+  --qelp-font-family-secondary: 'Foro Sans';
+  --qelp-font-family-secondary-light: 'Foro Sans Light';
+  --qelp-font-family-secondary-bold: 'Foro Sans Bold';
+
+  --qelp-h1-desktop-font-family: 'Mr Alex';
   --qelp-h1-desktop-font-size: 48px;
   --qelp-h1-desktop-line-height: 60px;
-  --qelp-h1-desktop-font-weight: 400;
+  --qelp-h1-desktop-font-weight: 700;
 
+  --qelp-h1-mobile-font-family: 'Mr Alex';
   --qelp-h1-mobile-font-size: 32px;
   --qelp-h1-mobile-line-height: 40px;
-  --qelp-h1-mobile-font-weight: 400;
+  --qelp-h1-mobile-font-weight: 700;
 
+  --qelp-h2-font-family: 'Mr Alex';
   --qelp-h2-font-size: 24px;
   --qelp-h2-line-height: 35px;
-  --qelp-h2-font-weight: 400;
+  --qelp-h2-font-weight: 700;
 
+  --qelp-h2-mobile-font-family: 'Mr Alex';
+  --qelp-h2-mobile-font-size: 24px;
+  --qelp-h2-mobile-line-height: 35px;
+  --qelp-h2-mobile-font-weight: 700;
+
+  --qelp-h3-font-family: 'Mr Alex';
   --qelp-h3-font-size: 20px;
   --qelp-h3-line-height: 30px;
-  --qelp-h3-font-weight: 400;
+  --qelp-h3-font-weight: 700;
 
+  --qelp-h3-mobile-font-family: 'Mr Alex';
+  --qelp-h3-mobile-font-size: 20px;
+  --qelp-h3-mobile-line-height: 30px;
+  --qelp-h3-mobile-font-weight: 700;
+
+  --qelp-body-font-family: 'Circular Book';
   --qelp-body-font-size: 16px;
   --qelp-body-line-height: 22px;
   --qelp-body-font-weight: 400;
 
+  --qelp-body-bold-font-family: 'Circular Book';
+  --qelp-body-bold-font-size: 16px;
+  --qelp-body-bold-line-height: 22px;
+  --qelp-body-bold-font-weight: 700;
+
+  --qelp-body-cards-font-family: 'Circular Book';
+  --qelp-body-cards-font-size: 14px;
+  --qelp-body-cards-line-height: 15px;
+  --qelp-body-cards-font-weight: 400;
+
+  --qelp-body-cards-mobile-font-family: 'Circular Book';
+  --qelp-body-cards-mobile-font-size: 14px;
+  --qelp-body-cards-mobile-line-height: 15px;
+  --qelp-body-cards-mobile-font-weight: 400;
+
+  --qelp-small-font-family: 'Circular Book';
   --qelp-small-font-size: 12px;
   --qelp-small-line-height: 15px;
   --qelp-small-font-weight: 400;
@@ -59,12 +106,14 @@
   /* BUTTON VARIABLES */
 
   /* Normal - size and font */
+  --qelp-button-normal-font-family: 'Circular Book';
   --qelp-button-normal-font-size: 14px;
   --qelp-button-normal-line-height: 13px;
   --qelp-button-normal-font-weight: 600;
   --qelp-button-normal-min-width: 68px;
 
   /* Large - size and font */
+  --qelp-button-large-font-family: 'Circular Book';
   --qelp-button-large-font-size: 16px;
   --qelp-button-large-line-height: 13px;
   --qelp-button-large-font-weight: 600;
@@ -124,6 +173,78 @@
 
   /* Others button rules - general */
   --qelp-button-border-radius: 5px;
+
+  /* CARDS VARIABLES */
+
+  /* Product Tiles */
+  --qelp-product-tiles-color: #CD0400;
+  --qelp-product-tiles-background-color: #F8F8F8;
+  --qelp-product-tiles-box-shadow: none;
+  --qelp-product-tiles-border: 2px solid transparent;
+
+  --qelp-product-tiles-hover-color: #DF2700;
+  --qelp-product-tiles-hover-background-color: #F8F8F8;
+  --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  --qelp-product-tiles-hover-border: 2px solid transparent;
+
+  --qelp-product-tiles-focus-color: #801500;
+  --qelp-product-tiles-focus-background-color: #F8F8F8;
+  --qelp-product-tiles-focus-box-shadow: none;
+  --qelp-product-tiles-focus-border: 2px solid #4D4D4D;
+
+  --qelp-product-tiles-active-color: #801500;
+  --qelp-product-tiles-active-background-color: #F8F8F8;
+  --qelp-product-tiles-active-box-shadow: none;
+  --qelp-product-tiles-active-border: 2px solid #CD0400;
+
+  --qelp-product-tiles-border-radius: 5px;
+
+  /* Manufacturer Tiles */
+  --qelp-manufacturer-tiles-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  --qelp-manufacturer-tiles-border: 2px solid transparent;
+
+  --qelp-manufacturer-tiles-hover-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+  --qelp-manufacturer-tiles-hover-border: 2px solid transparent;
+
+  --qelp-manufacturer-tiles-focus-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-manufacturer-tiles-focus-border: 2px solid #4D4D4D;
+
+  --qelp-manufacturer-tiles-active-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-manufacturer-tiles-active-border: 2px solid #CD0400;
+
+  --qelp-manufacturer-tiles-border-radius: 20px;
+
+  /* OS Tiles */
+  --qelp-os-tiles-color: #CD0400;
+  --qelp-os-tiles-background-color: #FFFFFF;
+  --qelp-os-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-os-tiles-border: 2px solid transparent;
+
+  --qelp-os-tiles-hover-color: #DF2700;
+  --qelp-os-tiles-hover-background-color: #FFFFFF;
+  --qelp-os-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+  --qelp-os-tiles-hover-border: 2px solid transparent;
+
+  --qelp-os-tiles-focus-color: #801500;
+  --qelp-os-tiles-focus-background-color: #FFFFFF;
+  --qelp-os-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-os-tiles-focus-border: 2px solid #4D4D4D;
+
+  --qelp-os-tiles-active-color: #801500;
+  --qelp-os-tiles-active-background-color: #FFFFFF;
+  --qelp-os-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-os-tiles-active-border: 2px solid #CD0400;
+
+  --qelp-os-tiles-border-radius: 5px;
+
+  /* BACKGROUNDS */
+
+  /* Search */
+  --qelp-search-background: #F8F8F8;
 
   /* GENERAL VARIABLES */
   --qelp-space-unit: 5px;

@@ -1,104 +1,104 @@
 :root {
   /* GENERAL COLOR VARIABLES */
-  --qelp-link:#E60032;
-  --qelp-link-hover:#D10B2C;
-  --qelp-link-active:#80001C;
-  --qelp-link-secondary:#160004;
-  --qelp-link-secondary-hover:#000000;
-  --qelp-link-secondary-active:#000000;
-  --qelp-accent:#E60032;
-  --qelp-accent-hover:#DF2700;
-  --qelp-accent-active:#80001C;
-  --qelp-headers:#E60032;
-  --qelp-headers-hover:#D10B2C;
-  --qelp-headers-active:#80001C;
-  --qelp-headers-secondary:#E60032;
-  --qelp-headers-secondary-hover:#D10B2C;
-  --qelp-headers-secondary-active:#80001C;
+  --qelp-link:#38BC15;
+  --qelp-link-hover:#2A8E10;
+  --qelp-link-active:#1D600B;
+  --qelp-link-secondary:#666666;
+  --qelp-link-secondary-hover:#4D4D4D;
+  --qelp-link-secondary-active:#333333;
+  --qelp-accent:#EF3E33;
+  --qelp-accent-hover:#DE1D11;
+  --qelp-accent-active:#AF170E;
+  --qelp-headers:#EF3E33;
+  --qelp-headers-hover:#C62417;
+  --qelp-headers-active:#AF170E;
+  --qelp-headers-secondary:#666666;
+  --qelp-headers-secondary-hover:#4D4D4D;
+  --qelp-headers-secondary-active:#333333;
   --qelp-headers-dark-bg:#FFFFFF;
   --qelp-headers-dark-bg-hover:#FFFFFF;
   --qelp-headers-dark-bg-active:#FFFFFF;
-  --qelp-body:#444444;
-  --qelp-body-hover:#262626;
-  --qelp-body-active:#0D0D0D;
-  --qelp-muted:#A8A8AC;
-  --qelp-muted-hover:#8A8A8F;
-  --qelp-muted-active:#707075;
-  --qelp-line:#CACACA;
-  --qelp-line-hover:#B3B3B3;
-  --qelp-line-active:#999999;
-  --qelp-tint:#F6F6F6;
-  --qelp-tint-hover:#D9D9D9;
-  --qelp-tint-active:#BFBFBF;
+  --qelp-body:#9B9B9B;
+  --qelp-body-hover:#828282;
+  --qelp-body-active:#696969;
+  --qelp-muted:#ABB5BA;
+  --qelp-muted-hover:#8F9CA3;
+  --qelp-muted-active:#73848C;
+  --qelp-line:#E3E6E8;
+  --qelp-line-hover:#C7CED1;
+  --qelp-line-active:#ABB5BA;
+  --qelp-tint:#F8F8F8;
+  --qelp-tint-hover:#DBDFE1;
+  --qelp-tint-active:#BEC6CA;
   --qelp-light:#FFFFFF;
-  --qelp-background:#E9E9EA;
-  --qelp-background-accent:#E9E9EA;
+  --qelp-background:#F3F3F3;
+  --qelp-background-accent:#FDEDD3;
   --qelp-background-light:#F6F6F6;
   --qelp-background-dark:#000000;
-  --qelp-qlicker:#E60032;
-  --qelp-qlicker-pulse:#D10B2C;
-  --qelp-error:#CD0400;
+  --qelp-qlicker:#EF3E33;
+  --qelp-qlicker-pulse:#AF170E;
+  --qelp-error:#BA0000;
 
   /* FONT VARIABLES */
-  --qelp-font-family: 'Albert';
-  --qelp-font-family-light: 'Albert Light';
-  --qelp-font-family-bold: 'Albert Bold';
+  --qelp-font-family: 'DIN2014-Regular';
+  --qelp-font-family-light: 'DIN2014-Light';
+  --qelp-font-family-bold: 'DIN2014-Bold';
 
-  --qelp-font-family-secondary: 'Cyclone-Background';
-  --qelp-font-family-secondary-light: 'Cyclone-Background Light';
-  --qelp-font-family-secondary-bold: 'Cyclone-Background Bold';
+  --qelp-font-family-secondary: 'DIN2014-Regular';
+  --qelp-font-family-secondary-light: 'DIN2014-Light';
+  --qelp-font-family-secondary-bold: 'DIN2014-Bold';
 
-  --qelp-h1-desktop-font-family: 'Cyclone-Background';
+  --qelp-h1-desktop-font-family: 'DIN2014-Regular';
   --qelp-h1-desktop-font-size: 42px;
   --qelp-h1-desktop-line-height: 60px;
   --qelp-h1-desktop-font-weight: 800;
 
-  --qelp-h1-mobile-font-family: 'Cyclone-Background';
+  --qelp-h1-mobile-font-family: 'DIN2014-Regular';
   --qelp-h1-mobile-font-size: 30px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 800;
 
-  --qelp-h2-font-family: 'Cyclone-Background';
+  --qelp-h2-font-family: 'DIN2014-Regular';
   --qelp-h2-font-size: 24px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 700;
 
-  --qelp-h2-mobile-font-family: 'Cyclone-Background';
+  --qelp-h2-mobile-font-family: 'DIN2014-Regular';
   --qelp-h2-mobile-font-size: 24px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 700;
 
-  --qelp-h3-font-family: 'Cyclone-Background';
+  --qelp-h3-font-family: 'DIN2014-Regular';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
-  --qelp-h3-font-weight: 700;
+  --qelp-h3-font-weight: 400;
 
-  --qelp-h3-mobile-font-family: 'Cyclone-Background';
+  --qelp-h3-mobile-font-family: 'DIN2014-Regular';
   --qelp-h3-mobile-font-size: 18px;
   --qelp-h3-mobile-line-height: 30px;
-  --qelp-h3-mobile-font-weight: 700;
+  --qelp-h3-mobile-font-weight: 400;
 
-  --qelp-body-font-family: 'Albert';
+  --qelp-body-font-family: 'DIN2014-Regular';
   --qelp-body-font-size: 16px;
   --qelp-body-line-height: 22px;
   --qelp-body-font-weight: 400;
 
-  --qelp-body-bold-font-family: 'Albert';
+  --qelp-body-bold-font-family: 'DIN2014-Regular';
   --qelp-body-bold-font-size: 16px;
   --qelp-body-bold-line-height: 22px;
   --qelp-body-bold-font-weight: 700;
 
-  --qelp-body-cards-font-family: 'Albert';
+  --qelp-body-cards-font-family: 'DIN2014-Regular';
   --qelp-body-cards-font-size: 14px;
   --qelp-body-cards-line-height: 15px;
-  --qelp-body-cards-font-weight: 700;
+  --qelp-body-cards-font-weight: 400;
 
-  --qelp-body-cards-mobile-font-family: 'Albert';
+  --qelp-body-cards-mobile-font-family: 'DIN2014-Regular';
   --qelp-body-cards-mobile-font-size: 14px;
   --qelp-body-cards-mobile-line-height: 15px;
-  --qelp-body-cards-mobile-font-weight: 700;
+  --qelp-body-cards-mobile-font-weight: 400;
 
-  --qelp-small-font-family: 'Albert';
+  --qelp-small-font-family: 'DIN2014-Regular';
   --qelp-small-font-size: 13px;
   --qelp-small-line-height: 15px;
   --qelp-small-font-weight: 400;
@@ -106,28 +106,28 @@
   /* BUTTON VARIABLES */
 
   /* Normal - size and font */
-  --qelp-button-normal-font-family: 'Albert';
+  --qelp-button-normal-font-family: 'DIN2014-Regular';
   --qelp-button-normal-font-size: 16px;
   --qelp-button-normal-line-height: 15px;
   --qelp-button-normal-font-weight: 700;
   --qelp-button-normal-min-width: 68px;
 
   /* Large - size and font */
-  --qelp-button-large-font-family: 'Albert';
+  --qelp-button-normal-font-family: 'DIN2014-Regular';
   --qelp-button-large-font-size: 18px;
   --qelp-button-large-line-height: 15px;
   --qelp-button-large-font-weight: 700;
 
   /* Primary - styles and colors */
-  --qelp-button-primary-background-color: #E60032;
+  --qelp-button-primary-background-color: #38BC15;
   --qelp-button-primary-color: #FFFFFF;
   --qelp-button-primary-text-decoration: none;
 
-  --qelp-button-primary-hover-background-color: #D10B2C;
+  --qelp-button-primary-hover-background-color: #31A412;
   --qelp-button-primary-hover-color: #FFFFFF;
   --qelp-button-primary-hover-text-decoration: none;
 
-  --qelp-button-primary-focus-border: 1px solid #E60032;
+  --qelp-button-primary-focus-border: 1px solid #FFFFFF;
   --qelp-button-primary-focus-outline: none;
   --qelp-button-primary-focus-text-decoration: none;
   --qelp-button-primary-focus-background-color: #31A412;
@@ -135,66 +135,67 @@
   --qelp-button-primary-focus-box-shadow: 0 0 0 1px #666666;
 
   --qelp-button-primary-active-text-decoration: none;
-  --qelp-button-primary-active-background-color: #80001C;
+  --qelp-button-primary-active-background-color: #31A412;
   --qelp-button-primary-active-color: #FFFFFF;
 
   --qelp-button-primary-disabled-text-decoration: none;
-  --qelp-button-primary-disabled-background-color: #A8A8AC;
+  --qelp-button-primary-disabled-background-color: #ABB5BA;
   --qelp-button-primary-disabled-color: #FFFFFF;
 
   /* Secondary - styles and colors */
-  --qelp-button-secondary-background-color: rgba(230, 0, 50, 0.5);
-  --qelp-button-secondary-color: #FFFFFF;
-  --qelp-button-secondary-border: 1px solid rgba(230, 0, 50, 0.5);
+  --qelp-button-secondary-background-color: transparent;
+  --qelp-button-secondary-color: #9B9B9B;
+  --qelp-button-secondary-border: 1px solid #9B9B9B;
   --qelp-button-secondary-text-decoration: none;
 
   --qelp-button-secondary-hover-text-decoration: none;
-  --qelp-button-secondary-hover-border: 1px solid rgba(209, 11, 44, 0.5);
-  --qelp-button-secondary-hover-color: #FFFFFF;
-  --qelp-button-secondary-hover-background-color: rgba(209, 11, 44, 0.5);
+  --qelp-button-secondary-hover-border: 1px solid #666666;
+  --qelp-button-secondary-hover-color: #666666;
+  --qelp-button-secondary-hover-background-color: transparent;
 
   --qelp-button-secondary-focus-outline: none;
   --qelp-button-secondary-focus-text-decoration: none;
-  --qelp-button-secondary-focus-border: 1px solid #rgba(230, 0, 50, 0.5);
-  --qelp-button-secondary-focus-color: #FFFFFF;
-  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #272726;
-  --qelp-button-secondary-focus-background-color: rgba(230, 0, 50, 0.5);
+  --qelp-button-secondary-focus-border: 1px solid #666666;
+  --qelp-button-secondary-focus-color: #666666;
+  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #666666;
+  --qelp-button-secondary-focus-background-color: transparent;
 
   --qelp-button-secondary-active-text-decoration: none;
-  --qelp-button-secondary-active-border: 1px solid rgba(230, 0, 50, 0.5);
-  --qelp-button-secondary-active-color: #FFFFFF;
-  --qelp-button-secondary-active-background-color: rgba(230, 0, 50, 0.5);
+  --qelp-button-secondary-active-border: 1px solid #666666;
+  --qelp-button-secondary-active-color: #666666;
+  --qelp-button-secondary-active-background-color: transparent;
 
   --qelp-button-secondary-disabled-text-decoration: none;
-  --qelp-button-secondary-disabled-border: 1px solid #A8A8AC;
-  --qelp-button-secondary-disabled-color: #FFFFFF;
-  --qelp-button-secondary-disabled-background-color: #A8A8AC;
+  --qelp-button-secondary-disabled-border: 1px solid #DDDDDD;
+  --qelp-button-secondary-disabled-color: #DDDDDD;
+  --qelp-button-secondary-disabled-background-color: transparent;
+
 
   /* Others - general */
-  --qelp-button-border-radius: 4px;
+  --qelp-button-border-radius: 32px;
 
   /* CARDS VARIABLES */
 
   /* Product Tiles */
-  --qelp-product-tiles-color: #E60032;
+  --qelp-product-tiles-color: #38BC15;
   --qelp-product-tiles-background-color: #F8F8F8;
   --qelp-product-tiles-box-shadow: none;
   --qelp-product-tiles-border: 2px solid transparent;
 
-  --qelp-product-tiles-hover-color: #D10B2C;
+  --qelp-product-tiles-hover-color: #2A8E10;
   --qelp-product-tiles-hover-background-color: #F8F8F8;
   --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
   --qelp-product-tiles-hover-border: 2px solid transparent;
 
-  --qelp-product-tiles-focus-color: #80001C;
+  --qelp-product-tiles-focus-color: #1D600B;
   --qelp-product-tiles-focus-background-color: #F8F8F8;
   --qelp-product-tiles-focus-box-shadow: none;
   --qelp-product-tiles-focus-border: 2px solid #4D4D4D;
 
-  --qelp-product-tiles-active-color: #80001C;
+  --qelp-product-tiles-active-color: #1D600B;
   --qelp-product-tiles-active-background-color: #F8F8F8;
   --qelp-product-tiles-active-box-shadow: none;
-  --qelp-product-tiles-active-border: 2px solid #E60032;
+  --qelp-product-tiles-active-border: 2px solid #38BC15;
 
   --qelp-product-tiles-border-radius: 5px;
 
@@ -213,30 +214,30 @@
 
   --qelp-manufacturer-tiles-active-background-color: #FFFFFF;
   --qelp-manufacturer-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
-  --qelp-manufacturer-tiles-active-border: 2px solid #E60032;
+  --qelp-manufacturer-tiles-active-border: 2px solid #38BC15;
 
   --qelp-manufacturer-tiles-border-radius: 20px;
 
   /* OS Tiles */
-  --qelp-os-tiles-color: #E60032;
+  --qelp-os-tiles-color: #38BC15;
   --qelp-os-tiles-background-color: #FFFFFF;
   --qelp-os-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
   --qelp-os-tiles-border: 2px solid transparent;
 
-  --qelp-os-tiles-hover-color: #D10B2C;
+  --qelp-os-tiles-hover-color: #2A8E10;
   --qelp-os-tiles-hover-background-color: #FFFFFF;
   --qelp-os-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
   --qelp-os-tiles-hover-border: 2px solid transparent;
 
-  --qelp-os-tiles-focus-color: #80001C;
+  --qelp-os-tiles-focus-color: #1D600B;
   --qelp-os-tiles-focus-background-color: #FFFFFF;
   --qelp-os-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
   --qelp-os-tiles-focus-border: 2px solid #4D4D4D;
 
-  --qelp-os-tiles-active-color: #80001C;
+  --qelp-os-tiles-active-color: #1D600B;
   --qelp-os-tiles-active-background-color: #FFFFFF;
   --qelp-os-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
-  --qelp-os-tiles-active-border: 2px solid #E60032;
+  --qelp-os-tiles-active-border: 2px solid #38BC15;
 
   --qelp-os-tiles-border-radius: 5px;
 
@@ -250,6 +251,16 @@
 }
 
 @font-face {
-  font-family: 'Albert';
-  src: local('Albert'), url('https://brunoeris.github.io/store-assets/assets/callmedk/fonts/Albert.woff') format('woff');
+  font-family: 'DIN2014-Regular';
+  src: local('DIN2014-Regular'), url('https://brunoeris.github.io/store-assets/fonts/DIN2014-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DIN2014-Light';
+  src: local('DIN2014-Light'), url('https://brunoeris.github.io/store-assets/fonts/DIN2014-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DIN2014-Bold';
+  src: local('DIN2014-Bold'), url('https://brunoeris.github.io/store-assets/fonts/DIN2014-Bold.woff') format('woff');
 }
