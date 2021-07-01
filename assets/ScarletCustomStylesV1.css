@@ -131,15 +131,15 @@
 
 @font-face {
   font-family: 'DIN2014-Regular';
-  src: local('DIN2014-Regular'), url('https://brunoeris.github.io/store-assets/fonts/DIN2014-Regular.woff') format('woff');
+  src: local('DIN2014-Regular'), url('https://brunoeris.github.io/store-assets-staging/fonts/DIN2014-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'DIN2014-Light';
-  src: local('DIN2014-Light'), url('https://brunoeris.github.io/store-assets/fonts/DIN2014-Light.woff') format('woff');
+  src: local('DIN2014-Light'), url('https://brunoeris.github.io/store-assets-staging/fonts/DIN2014-Light.woff') format('woff');
 }
 
 @font-face {
   font-family: 'DIN2014-Bold';
-  src: local('DIN2014-Bold'), url('https://brunoeris.github.io/store-assets/fonts/DIN2014-Bold.woff') format('woff');
+  src: local('DIN2014-Bold'), url('https://brunoeris.github.io/store-assets-staging/fonts/DIN2014-Bold.woff') format('woff');
 }
