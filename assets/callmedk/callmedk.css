@@ -51,32 +51,32 @@
   --qelp-h1-desktop-font-family: 'Cyclone-Background';
   --qelp-h1-desktop-font-size: 42px;
   --qelp-h1-desktop-line-height: 60px;
-  --qelp-h1-desktop-font-weight: 800;
+  --qelp-h1-desktop-font-weight: 500;
 
   --qelp-h1-mobile-font-family: 'Cyclone-Background';
   --qelp-h1-mobile-font-size: 30px;
   --qelp-h1-mobile-line-height: 40px;
-  --qelp-h1-mobile-font-weight: 800;
+  --qelp-h1-mobile-font-weight: 500;
 
   --qelp-h2-font-family: 'Cyclone-Background';
   --qelp-h2-font-size: 24px;
   --qelp-h2-line-height: 35px;
-  --qelp-h2-font-weight: 700;
+  --qelp-h2-font-weight: 500;
 
   --qelp-h2-mobile-font-family: 'Cyclone-Background';
   --qelp-h2-mobile-font-size: 24px;
   --qelp-h2-mobile-line-height: 35px;
-  --qelp-h2-mobile-font-weight: 700;
+  --qelp-h2-mobile-font-weight: 500;
 
   --qelp-h3-font-family: 'Cyclone-Background';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
-  --qelp-h3-font-weight: 700;
+  --qelp-h3-font-weight: 500;
 
   --qelp-h3-mobile-font-family: 'Cyclone-Background';
   --qelp-h3-mobile-font-size: 18px;
   --qelp-h3-mobile-line-height: 30px;
-  --qelp-h3-mobile-font-weight: 700;
+  --qelp-h3-mobile-font-weight: 500;
 
   --qelp-body-font-family: 'AlbertRegular';
   --qelp-body-font-size: 16px;
@@ -91,12 +91,12 @@
   --qelp-body-cards-font-family: 'AlbertRegular';
   --qelp-body-cards-font-size: 14px;
   --qelp-body-cards-line-height: 15px;
-  --qelp-body-cards-font-weight: 700;
+  --qelp-body-cards-font-weight: 400;
 
   --qelp-body-cards-mobile-font-family: 'AlbertRegular';
   --qelp-body-cards-mobile-font-size: 14px;
   --qelp-body-cards-mobile-line-height: 15px;
-  --qelp-body-cards-mobile-font-weight: 700;
+  --qelp-body-cards-mobile-font-weight: 400;
 
   --qelp-small-font-family: 'AlbertRegular';
   --qelp-small-font-size: 13px;
@@ -109,14 +109,14 @@
   --qelp-button-normal-font-family: 'AlbertRegular';
   --qelp-button-normal-font-size: 16px;
   --qelp-button-normal-line-height: 15px;
-  --qelp-button-normal-font-weight: 700;
+  --qelp-button-normal-font-weight: 500;
   --qelp-button-normal-min-width: 68px;
 
   /* Large - size and font */
   --qelp-button-large-font-family: 'AlbertRegular';
   --qelp-button-large-font-size: 18px;
   --qelp-button-large-line-height: 15px;
-  --qelp-button-large-font-weight: 700;
+  --qelp-button-large-font-weight: 500;
 
   /* Primary - styles and colors */
   --qelp-button-primary-background-color: #E60032;
