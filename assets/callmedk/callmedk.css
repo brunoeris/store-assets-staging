@@ -44,36 +44,36 @@
   --qelp-font-family-light: 'AlbertLight';
   --qelp-font-family-bold: 'AlbertBold';
 
-  --qelp-font-family-secondary: 'Cyclone-Background-Font';
-  --qelp-font-family-secondary-light: 'Cyclone-Background-Font';
-  --qelp-font-family-secondary-bold: 'Cyclone-Background-Font';
+  --qelp-font-family-secondary: 'Cyclone-Background';
+  --qelp-font-family-secondary-light: 'Cyclone-Background';
+  --qelp-font-family-secondary-bold: 'Cyclone-Background';
 
-  --qelp-h1-desktop-font-family: 'Cyclone-Background-Font';
+  --qelp-h1-desktop-font-family: 'Cyclone-Background';
   --qelp-h1-desktop-font-size: 42px;
   --qelp-h1-desktop-line-height: 60px;
   --qelp-h1-desktop-font-weight: 800;
 
-  --qelp-h1-mobile-font-family: 'Cyclone-Background-Font';
+  --qelp-h1-mobile-font-family: 'Cyclone-Background';
   --qelp-h1-mobile-font-size: 30px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 800;
 
-  --qelp-h2-font-family: 'Cyclone-Background-Font';
+  --qelp-h2-font-family: 'Cyclone-Background';
   --qelp-h2-font-size: 24px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 700;
 
-  --qelp-h2-mobile-font-family: 'Cyclone-Background-Font';
+  --qelp-h2-mobile-font-family: 'Cyclone-Background';
   --qelp-h2-mobile-font-size: 24px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 700;
 
-  --qelp-h3-font-family: 'Cyclone-Background-Font';
+  --qelp-h3-font-family: 'Cyclone-Background';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
   --qelp-h3-font-weight: 700;
 
-  --qelp-h3-mobile-font-family: 'Cyclone-Background-Font';
+  --qelp-h3-mobile-font-family: 'Cyclone-Background';
   --qelp-h3-mobile-font-size: 18px;
   --qelp-h3-mobile-line-height: 30px;
   --qelp-h3-mobile-font-weight: 700;
@@ -250,8 +250,8 @@
 }
 
 @font-face {
-  font-family: 'Cyclone-Background-Font';
-  src: local('Cyclone-Background-Font'), url('https://brunoeris.github.io/store-assets-staging/assets/callmedk/fonts/Cyclone-Background-Font.otf') format('otf');
+  font-family: 'Cyclone-Background';
+  src: local('Cyclone-Background'), url('https://brunoeris.github.io/store-assets-staging/assets/callmedk/fonts/Cyclone-Background-Font.otf') format('woff');
 }
 
 @font-face {
