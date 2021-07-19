@@ -111,12 +111,15 @@
   --qelp-button-normal-line-height: 15px;
   --qelp-button-normal-font-weight: 700;
   --qelp-button-normal-min-width: 68px;
+  --qelp-button-normal-text-transform: uppercase;
 
   /* Large - size and font */
-  --qelp-button-normal-font-family: 'DIN2014-Regular';
+  --qelp-button-large-font-family: 'DIN2014-Regular';
   --qelp-button-large-font-size: 18px;
   --qelp-button-large-line-height: 15px;
   --qelp-button-large-font-weight: 700;
+  --qelp-button-large-min-width: 78px;
+  --qelp-button-large-text-transform: uppercase;
 
   /* Primary - styles and colors */
   --qelp-button-primary-background-color: #38BC15;
@@ -240,6 +243,41 @@
   --qelp-os-tiles-active-border: 2px solid #38BC15;
 
   --qelp-os-tiles-border-radius: 5px;
+
+  /* ACCORDION VARIABLES */
+
+  --qelp-accordion-title-font-family: 'DIN2014-Regular';
+  --qelp-accordion-title-font-size: 18px;
+  --qelp-accordion-title-line-height: 30px;
+  --qelp-accordion-title-font-weight: 400;
+
+  /* BREADCRUMB VARIABLES */
+
+  --qelp-breadcrumb-font-family: 'DIN2014-Regular';
+  --qelp-breadcrumb-font-size: 18px;
+  --qelp-breadcrumb-line-height: 30px;
+  --qelp-breadcrumb-font-weight: 400;
+  --qelp-breadcrumb-active-font-color: #9B9B9B;
+
+  /* NAVIGATION LINKS VARIABLES */
+
+  --qelp-navigation-links-font-family: 'DIN2014-Regular';
+  --qelp-navigation-links-font-size: 16px;
+  --qelp-navigation-links-line-height: 22px;
+  --qelp-navigation-links-font-weight: 400;
+  --qelp-navigation-links-icon-color: #38BC15;
+  --qelp-navigation-links-icon-color-hover: #2A8E10;
+  --qelp-navigation-links-icon-color-active: #1D600B;
+  --qelp-navigation-links-text-color: #38BC15;
+  --qelp-navigation-links-text-color-hover: #2A8E10;
+  --qelp-navigation-links-text-color-active: #1D600B;
+
+  /* CATEGORY TOPICS VARIABLES */
+
+  --qelp-category-topics-title-font-family: 'DIN2014-Regular';
+  --qelp-category-topics-title-font-size: 18px;
+  --qelp-category-topics-title-line-height: 30px;
+  --qelp-category-topics-title-font-weight: 400;
 
   /* BACKGROUNDS */
 

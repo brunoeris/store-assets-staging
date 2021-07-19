@@ -49,22 +49,22 @@
   --qelp-font-family-secondary-bold: 'Cyclone-Background';
 
   --qelp-h1-desktop-font-family: 'Cyclone-Background';
-  --qelp-h1-desktop-font-size: 42px;
+  --qelp-h1-desktop-font-size: 48px;
   --qelp-h1-desktop-line-height: 60px;
   --qelp-h1-desktop-font-weight: 500;
 
   --qelp-h1-mobile-font-family: 'Cyclone-Background';
-  --qelp-h1-mobile-font-size: 30px;
+  --qelp-h1-mobile-font-size: 48px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 500;
 
   --qelp-h2-font-family: 'Cyclone-Background';
-  --qelp-h2-font-size: 24px;
+  --qelp-h2-font-size: 34px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 500;
 
   --qelp-h2-mobile-font-family: 'Cyclone-Background';
-  --qelp-h2-mobile-font-size: 24px;
+  --qelp-h2-mobile-font-size: 34px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 500;
 
@@ -111,12 +111,15 @@
   --qelp-button-normal-line-height: 15px;
   --qelp-button-normal-font-weight: 500;
   --qelp-button-normal-min-width: 68px;
+  --qelp-button-normal-text-transform: none;
 
   /* Large - size and font */
   --qelp-button-large-font-family: 'AlbertRegular';
   --qelp-button-large-font-size: 18px;
   --qelp-button-large-line-height: 15px;
   --qelp-button-large-font-weight: 500;
+  --qelp-button-large-min-width: 78px;
+  --qelp-button-large-text-transform: none;
 
   /* Primary - styles and colors */
   --qelp-button-primary-background-color: #E60032;
@@ -239,6 +242,42 @@
   --qelp-os-tiles-active-border: 2px solid #E60032;
 
   --qelp-os-tiles-border-radius: 5px;
+
+  /* ACCORDION VARIABLES */
+
+  --qelp-accordion-title-font-family: 'AlbertRegular';
+  --qelp-accordion-title-font-size: 18px;
+  --qelp-accordion-title-line-height: 30px;
+  --qelp-accordion-title-font-weight: 500;
+
+  /* BREADCRUMB VARIABLES */
+
+  --qelp-breadcrumb-font-family: 'AlbertRegular';
+  --qelp-breadcrumb-font-size: 18px;
+  --qelp-breadcrumb-line-height: 30px;
+  --qelp-breadcrumb-font-weight: 500;
+  --qelp-breadcrumb-active-font-color: #444444;
+
+  /* NAVIGATION LINKS VARIABLES */
+
+  --qelp-navigation-links-font-family: 'AlbertRegular';
+  --qelp-navigation-links-font-size: 16px;
+  --qelp-navigation-links-line-height: 22px;
+  --qelp-navigation-links-font-weight: 400;
+  --qelp-navigation-links-icon-color: #160004;
+  --qelp-navigation-links-icon-color-hover: #262626;
+  --qelp-navigation-links-icon-color-active: #0D0D0D;
+  --qelp-navigation-links-text-color: #160004;
+  --qelp-navigation-links-text-color-hover: #262626;
+  --qelp-navigation-links-text-color-active: #0D0D0D;
+
+  /* CATEGORY TOPICS VARIABLES */
+
+  --qelp-category-topics-title-font-family: 'AlbertRegular';
+  --qelp-category-topics-title-font-size: 18px;
+  --qelp-category-topics-title-line-height: 30px;
+  --qelp-category-topics-title-font-weight: 500;
+
 
   /* BACKGROUNDS */
 
