@@ -179,22 +179,22 @@
   /* CARDS VARIABLES */
 
   /* Product Tiles */
-  --qelp-product-tiles-color: #E60032;
+  --qelp-product-tiles-color: #160004;
   --qelp-product-tiles-background-color: #F8F8F8;
   --qelp-product-tiles-box-shadow: none;
   --qelp-product-tiles-border: 2px solid transparent;
 
-  --qelp-product-tiles-hover-color: #D10B2C;
+  --qelp-product-tiles-hover-color: #160004;
   --qelp-product-tiles-hover-background-color: #F8F8F8;
   --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
   --qelp-product-tiles-hover-border: 2px solid transparent;
 
-  --qelp-product-tiles-focus-color: #80001C;
+  --qelp-product-tiles-focus-color: #160004;
   --qelp-product-tiles-focus-background-color: #F8F8F8;
   --qelp-product-tiles-focus-box-shadow: none;
   --qelp-product-tiles-focus-border: 2px solid #4D4D4D;
 
-  --qelp-product-tiles-active-color: #80001C;
+  --qelp-product-tiles-active-color: #160004;
   --qelp-product-tiles-active-background-color: #F8F8F8;
   --qelp-product-tiles-active-box-shadow: none;
   --qelp-product-tiles-active-border: 2px solid #E60032;
