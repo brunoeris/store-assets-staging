@@ -6,9 +6,9 @@
   --qelp-link-secondary:#595B61;
   --qelp-link-secondary-hover:#3F4145;
   --qelp-link-secondary-active:#27282B;
-  --qelp-accent:#68B631;
-  --qelp-accent-hover:#518D25;
-  --qelp-accent-active:#3A651B;
+  --qelp-accent:#ED0000;
+  --qelp-accent-hover:#B30000;
+  --qelp-accent-active:#800000;
   --qelp-headers:#ED0000;
   --qelp-headers-hover:#B30000;
   --qelp-headers-active:#800000;
@@ -32,11 +32,11 @@
   --qelp-tint-active:#BABFC5;
   --qelp-light:#FFFFFF;
   --qelp-background:#E1E1E1;
-  --qelp-background-accent:#F6F6F6;
+  --qelp-background-accent:#E1E1E1;
   --qelp-background-light:#F6F6F6;
   --qelp-background-dark:#000000;
-  --qelp-qlicker:#68B631;
-  --qelp-qlicker-pulse:#518D25;
+  --qelp-qlicker:#ED0000;
+  --qelp-qlicker-pulse:#B30000;
   --qelp-error:#CD0400;
 
   /* FONT VARIABLES */
@@ -58,22 +58,22 @@
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 800;
 
-  --qelp-h2-font-family: 'VM Circular Black';
-  --qelp-h2-font-size: 24px;
+  --qelp-h2-font-family: 'VM Circular Medium';
+  --qelp-h2-font-size: 19.2px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 700;
 
-  --qelp-h2-mobile-font-family: 'VM Circular Black';
-  --qelp-h2-mobile-font-size: 24px;
+  --qelp-h2-mobile-font-family: 'VM Circular Medium';
+  --qelp-h2-mobile-font-size: 19.2px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 700;
 
-  --qelp-h3-font-family: 'VM Circular Black';
+  --qelp-h3-font-family: 'VM Circular Medium';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
   --qelp-h3-font-weight: 700;
 
-  --qelp-h3-mobile-font-family: 'VM Circular Black';
+  --qelp-h3-mobile-font-family: 'VM Circular Medium';
   --qelp-h3-mobile-font-size: 20px;
   --qelp-h3-mobile-line-height: 30px;
   --qelp-h3-mobile-font-weight: 700;
@@ -254,10 +254,10 @@
   /* BREADCRUMB VARIABLES */
 
   --qelp-breadcrumb-font-family: 'VM Circular Book';
-  --qelp-breadcrumb-font-size: 20px;
-  --qelp-breadcrumb-line-height: 30px;
+  --qelp-breadcrumb-font-size: 16px;
+  --qelp-breadcrumb-line-height: 22px;
   --qelp-breadcrumb-font-weight: 700;
-  --qelp-breadcrumb-active-font-color: #312332;
+  --qelp-breadcrumb-active-font-color: #ED0000;
 
   /* NAVIGATION LINKS VARIABLES */
 
@@ -275,14 +275,7 @@
   /* CATEGORY TOPICS VARIABLES */
 
   --qelp-category-topics-title-font-family: 'VM Circular Book';
-  --qelp-category-topics-title-font-size: 20px;
-  --qelp-category-topics-title-line-height: 30px;
-  --qelp-category-topics-title-font-weight: 700;
-
-  /* CATEGORY TOPICS VARIABLES */
-
-  --qelp-category-topics-title-font-family: 'VM Circular Book';
-  --qelp-category-topics-title-font-size: 20px;
+  --qelp-category-topics-title-font-size: 18px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
 
@@ -295,7 +288,7 @@
   --qelp-list-items-text-color: #595B61;
   --qelp-list-items-text-color-hover: #3F4145;
   --qelp-list-items-text-color-active: #27282B;
-  --qelp-list-items-icon-color: #ED0000;
+  --qelp-list-items-icon-color: #595B61;
 
   /* FEATURED COMPONENTS VARIABLES */
 
