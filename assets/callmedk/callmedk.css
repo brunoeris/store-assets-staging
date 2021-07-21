@@ -318,8 +318,8 @@
   /* GENERAL VARIABLES */
   --qelp-space-unit: 5px;
 
-  --qelp-spacer: 40px;
-  --qelp-spacer-mobile: 40px;
+  --qelp-spacer: 30px;
+  --qelp-spacer-mobile: 30px;
 }
 
 @font-face {
