@@ -6,9 +6,9 @@
   --qelp-link-secondary:#160004;
   --qelp-link-secondary-hover:#000000;
   --qelp-link-secondary-active:#000000;
-  --qelp-accent:#007D91;
-  --qelp-accent-hover:#005866;
-  --qelp-accent-active:#002C33;
+  --qelp-accent:#FF007D;
+  --qelp-accent-hover:#CC0063;
+  --qelp-accent-active:#99004A;
   --qelp-headers:#000000;
   --qelp-headers-hover:#000000;
   --qelp-headers-active:#000000;
@@ -32,7 +32,7 @@
   --qelp-tint-active:#B3B3B3;
   --qelp-light:#FFFFFF;
   --qelp-background:#F2F2F2;
-  --qelp-background-accent:#FDEDD3;
+  --qelp-background-accent:#F2F2F2;
   --qelp-background-light:#F6F6F6;
   --qelp-background-dark:#000000;
   --qelp-qlicker:#FF007D;
@@ -48,22 +48,22 @@
   --qelp-font-family-secondary-light: 'Circular Book';
   --qelp-font-family-secondary-bold: 'Circular Bold';
 
-  --qelp-h1-desktop-font-family: 'Circular Book';
-  --qelp-h1-desktop-font-size: 42px;
+  --qelp-h1-desktop-font-family: 'Circular Bold';
+  --qelp-h1-desktop-font-size: 32px;
   --qelp-h1-desktop-line-height: 60px;
   --qelp-h1-desktop-font-weight: 800;
 
-  --qelp-h1-mobile-font-family: 'Circular Book';
+  --qelp-h1-mobile-font-family: 'Circular Bold';
   --qelp-h1-mobile-font-size: 30px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 800;
 
-  --qelp-h2-font-family: 'Circular Book';
-  --qelp-h2-font-size: 24px;
+  --qelp-h2-font-family: 'Circular Bold';
+  --qelp-h2-font-size: 32px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 700;
 
-  --qelp-h2-mobile-font-family: 'Circular Book';
+  --qelp-h2-mobile-font-family: 'Circular Bold';
   --qelp-h2-mobile-font-size: 24px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 700;
@@ -277,6 +277,35 @@
   --qelp-category-topics-title-font-size: 18px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
+
+  /* LIST ITEMS VARIABLES */
+
+  --qelp-list-items-font-family: 'Circular Book';
+  --qelp-list-items-font-size: 16px;
+  --qelp-list-items-line-height: 22px;
+  --qelp-list-items-font-weight: 400;
+  --qelp-list-items-text-color: #FF007D;
+  --qelp-list-items-text-color-hover: #CC0063;
+  --qelp-list-items-text-color-active: #99004A;
+  --qelp-list-items-icon-color: #FF007D;
+
+  /* FEATURED COMPONENTS VARIABLES */
+
+  /* Categories */
+  --qelp-featured-categories-button-position: flex-end;
+
+  /* Topics */
+  --qelp-featured-topics-button-position: flex-start;
+
+  /* Devices */
+  --qelp-featured-devices-button-position: flex-start;
+
+  /* Manufacturers */
+  --qelp-featured-manufacturers-button-position: flex-start;
+
+  /* Category Topics */
+  --qelp-featured-category-topics-button-position: flex-start;
+
 
   /* BACKGROUNDS */
 

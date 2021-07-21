@@ -32,7 +32,7 @@
   --qelp-tint-active:#CCCCCC;
   --qelp-light:#FFFFFF;
   --qelp-background:#F5F5F5;
-  --qelp-background-accent:#FDEDD3;
+  --qelp-background-accent:#F6F6F6;
   --qelp-background-light:#F6F6F6;
   --qelp-background-dark:#000000;
   --qelp-qlicker:#239A98;
@@ -278,6 +278,34 @@
   --qelp-category-topics-title-font-size: 20px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
+
+  /* LIST ITEMS VARIABLES */
+
+  --qelp-list-items-font-family: 'HCo Gotham Rounded SSm';
+  --qelp-list-items-font-size: 16px;
+  --qelp-list-items-line-height: 22px;
+  --qelp-list-items-font-weight: 400;
+  --qelp-list-items-text-color: #595B61;
+  --qelp-list-items-text-color-hover: #3F4145;
+  --qelp-list-items-text-color-active: #27282B;
+  --qelp-list-items-icon-color: #239A98;
+
+  /* FEATURED COMPONENTS VARIABLES */
+
+  /* Categories */
+  --qelp-featured-categories-button-position: flex-start;
+
+  /* Topics */
+  --qelp-featured-topics-button-position: flex-start;
+
+  /* Devices */
+  --qelp-featured-devices-button-position: flex-start;
+
+  /* Manufacturers */
+  --qelp-featured-manufacturers-button-position: flex-start;
+
+  /* Category Topics */
+  --qelp-featured-category-topics-button-position: flex-start;
 
 
   /* BACKGROUNDS */
