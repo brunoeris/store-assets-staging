@@ -256,6 +256,9 @@
   --qelp-breadcrumb-font-size: 18px;
   --qelp-breadcrumb-line-height: 30px;
   --qelp-breadcrumb-font-weight: 700;
+  --qelp-breadcrumb-font-color: #FF007D;
+  --qelp-breadcrumb-font-color-hover: #CC0063;
+  --qelp-breadcrumb-font-color-active: #99004A;
   --qelp-breadcrumb-active-font-color: #121212;
 
   /* NAVIGATION LINKS VARIABLES */
