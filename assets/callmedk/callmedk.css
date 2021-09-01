@@ -48,35 +48,41 @@
   --qelp-font-family-secondary-light: 'Cyclone-Background';
   --qelp-font-family-secondary-bold: 'Cyclone-Background';
 
-  --qelp-h1-desktop-font-family: 'Cyclone-Background';
-  --qelp-h1-desktop-font-size: 48px;
-  --qelp-h1-desktop-line-height: 60px;
-  --qelp-h1-desktop-font-weight: 500;
+  --qelp-h1-font-family: 'Cyclone-Background';
+  --qelp-h1-font-size: 48px;
+  --qelp-h1-line-height: 60px;
+  --qelp-h1-font-weight: 500;
+  --qelp-h1-color: #E60032;
 
   --qelp-h1-mobile-font-family: 'Cyclone-Background';
   --qelp-h1-mobile-font-size: 48px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 500;
+  --qelp-h1-mobile-color: #E60032;
 
   --qelp-h2-font-family: 'Cyclone-Background';
   --qelp-h2-font-size: 34px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 500;
+  --qelp-h2-color: #E60032;
 
   --qelp-h2-mobile-font-family: 'Cyclone-Background';
   --qelp-h2-mobile-font-size: 34px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 500;
+  --qelp-h2-mobile-color: #E60032;
 
   --qelp-h3-font-family: 'Cyclone-Background';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
   --qelp-h3-font-weight: 500;
+  --qelp-h3-color: #E60032;
 
   --qelp-h3-mobile-font-family: 'Cyclone-Background';
   --qelp-h3-mobile-font-size: 18px;
   --qelp-h3-mobile-line-height: 30px;
   --qelp-h3-mobile-font-weight: 500;
+  --qelp-h3-mobile-color: #E60032;
 
   --qelp-body-font-family: 'AlbertRegular';
   --qelp-body-font-size: 16px;
@@ -280,6 +286,7 @@
   --qelp-category-topics-title-font-size: 18px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 500;
+  --qelp-category-topics-title-text-color: #E60032;
 
   /* LIST ITEMS VARIABLES */
 

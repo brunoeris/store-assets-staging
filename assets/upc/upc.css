@@ -48,35 +48,41 @@
   --qelp-font-family-secondary-light: 'HCo Gotham Rounded SSm Light';
   --qelp-font-family-secondary-bold: 'HCo Gotham Rounded SSm Bold';
 
-  --qelp-h1-desktop-font-family: 'HCo Gotham Rounded SSm';
-  --qelp-h1-desktop-font-size: 42px;
-  --qelp-h1-desktop-line-height: 60px;
-  --qelp-h1-desktop-font-weight: 800;
+  --qelp-h1-font-family: 'HCo Gotham Rounded SSm';
+  --qelp-h1-font-size: 42px;
+  --qelp-h1-line-height: 60px;
+  --qelp-h1-font-weight: 800;
+  --qelp-h1-color: #333333;
 
   --qelp-h1-mobile-font-family: 'HCo Gotham Rounded SSm';
   --qelp-h1-mobile-font-size: 30px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 800;
+  --qelp-h1-mobile-color: #333333;
 
   --qelp-h2-font-family: 'HCo Gotham Rounded SSm';
-  --qelp-h2-font-size: 24px;
+  --qelp-h2-font-size: 20px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 700;
+  --qelp-h2-color: #239A98;
 
   --qelp-h2-mobile-font-family: 'HCo Gotham Rounded SSm';
   --qelp-h2-mobile-font-size: 24px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 700;
+  --qelp-h2-mobile-color: #239A98;
 
   --qelp-h3-font-family: 'HCo Gotham Rounded SSm';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
   --qelp-h3-font-weight: 700;
+  --qelp-h3-color: #333333;
 
   --qelp-h3-mobile-font-family: 'HCo Gotham Rounded SSm';
   --qelp-h3-mobile-font-size: 20px;
   --qelp-h3-mobile-line-height: 30px;
   --qelp-h3-mobile-font-weight: 700;
+  --qelp-h3-mobile-color: #333333;
 
   --qelp-body-font-family: 'HCo Gotham Rounded SSm';
   --qelp-body-font-size: 16px;
@@ -173,7 +179,6 @@
   --qelp-button-secondary-disabled-color: #666666;
   --qelp-button-secondary-disabled-background-color: transparent;
 
-
   /* Others - general */
   --qelp-button-border-radius: 50px;
 
@@ -254,13 +259,13 @@
   /* BREADCRUMB VARIABLES */
 
   --qelp-breadcrumb-font-family: 'HCo Gotham Rounded SSm';
-  --qelp-breadcrumb-font-size: 20px;
-  --qelp-breadcrumb-line-height: 30px;
+  --qelp-breadcrumb-font-size: 14px;
+  --qelp-breadcrumb-line-height: 20px;
   --qelp-breadcrumb-font-weight: 700;
   --qelp-breadcrumb-font-color: #239A98;
   --qelp-breadcrumb-font-color-hover: #1C7D7B;
   --qelp-breadcrumb-font-color-active: #135352;
-  --qelp-breadcrumb-active-font-color: #121212;
+  --qelp-breadcrumb-active-font-color: #333333;
 
   /* NAVIGATION LINKS VARIABLES */
 
@@ -281,6 +286,7 @@
   --qelp-category-topics-title-font-size: 20px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
+  --qelp-category-topics-title-text-color: #333333;
 
   /* LIST ITEMS VARIABLES */
 
@@ -291,7 +297,7 @@
   --qelp-list-items-text-color: #595B61;
   --qelp-list-items-text-color-hover: #3F4145;
   --qelp-list-items-text-color-active: #27282B;
-  --qelp-list-items-icon-color: #239A98;
+  --qelp-list-items-icon-color: #333333;
 
   /* FEATURED COMPONENTS VARIABLES */
 

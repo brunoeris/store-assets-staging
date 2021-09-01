@@ -48,35 +48,41 @@
   --qelp-font-family-secondary-light: 'Circular Book';
   --qelp-font-family-secondary-bold: 'Circular Bold';
 
-  --qelp-h1-desktop-font-family: 'Circular Bold';
-  --qelp-h1-desktop-font-size: 32px;
-  --qelp-h1-desktop-line-height: 60px;
-  --qelp-h1-desktop-font-weight: 800;
+  --qelp-h1-font-family: 'Circular Bold';
+  --qelp-h1-font-size: 32px;
+  --qelp-h1-line-height: 60px;
+  --qelp-h1-font-weight: 800;
+  --qelp-h1-color: #000000;
 
   --qelp-h1-mobile-font-family: 'Circular Bold';
   --qelp-h1-mobile-font-size: 30px;
   --qelp-h1-mobile-line-height: 40px;
   --qelp-h1-mobile-font-weight: 800;
+  --qelp-h1-mobile-color: #000000;
 
   --qelp-h2-font-family: 'Circular Bold';
   --qelp-h2-font-size: 18px;
   --qelp-h2-line-height: 35px;
   --qelp-h2-font-weight: 700;
+  --qelp-h2-color: #000000;
 
   --qelp-h2-mobile-font-family: 'Circular Bold';
   --qelp-h2-mobile-font-size: 18px;
   --qelp-h2-mobile-line-height: 35px;
   --qelp-h2-mobile-font-weight: 700;
+  --qelp-h2-mobile-color: #000000;
 
   --qelp-h3-font-family: 'Circular Book';
   --qelp-h3-font-size: 18px;
   --qelp-h3-line-height: 30px;
   --qelp-h3-font-weight: 700;
+  --qelp-h3-color: #000000;
 
   --qelp-h3-mobile-font-family: 'Circular Book';
   --qelp-h3-mobile-font-size: 18px;
   --qelp-h3-mobile-line-height: 30px;
   --qelp-h3-mobile-font-weight: 700;
+  --qelp-h3-mobile-color: #000000;
 
   --qelp-body-font-family: 'Circular Book';
   --qelp-body-font-size: 16px;
@@ -280,6 +286,7 @@
   --qelp-category-topics-title-font-size: 18px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
+  --qelp-category-topics-title-text-color: #000000;
 
   /* LIST ITEMS VARIABLES */
 
