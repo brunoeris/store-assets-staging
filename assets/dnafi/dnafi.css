@@ -268,6 +268,7 @@
 
   --qelp-searchbox-border: 1px solid #AAAAAA;
   --qelp-searchbox-border-radius: 50px;
+  --qelp-searchbox-result-background: #F8F8F8;
 
   /* ACCORDION VARIABLES */
 
@@ -336,11 +337,6 @@
   /* Category Topics */
   --qelp-featured-category-topics-button-position: flex-start;
 
-
-  /* BACKGROUNDS */
-
-  /* Search */
-  --qelp-search-background: #F8F8F8;
 
   /* GENERAL VARIABLES */
   --qelp-space-unit: 5px;
