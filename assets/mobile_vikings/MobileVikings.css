@@ -32,7 +32,7 @@
   --qelp-tint-active:#BABFC5;
   --qelp-light:#FFFFFF;
   --qelp-background:#F5F5F5;
-  --qelp-background-accent:#F6F6F6;
+  --qelp-background-accent:#E2E4E1;
   --qelp-background-light:#F6F6F6;
   --qelp-background-dark:#000000;
   --qelp-qlicker:#CD0400;
@@ -186,44 +186,44 @@
   /* CARDS VARIABLES */
 
   /* Product Tiles */
-  --qelp-product-tiles-color: #CD0400;
+  --qelp-product-tiles-color: #000000;
   --qelp-product-tiles-background-color: #E2E4E1;
   --qelp-product-tiles-box-shadow: none;
-  --qelp-product-tiles-border: 2px solid transparent;
+  --qelp-product-tiles-border: 1px solid transparent;
 
   --qelp-product-tiles-hover-color: #DF2700;
   --qelp-product-tiles-hover-background-color: #E2E4E1;
   --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
-  --qelp-product-tiles-hover-border: 2px solid transparent;
+  --qelp-product-tiles-hover-border: 1px solid #CD0400;
 
   --qelp-product-tiles-focus-color: #801500;
   --qelp-product-tiles-focus-background-color: #E2E4E1;
   --qelp-product-tiles-focus-box-shadow: none;
-  --qelp-product-tiles-focus-border: 2px solid #4D4D4D;
+  --qelp-product-tiles-focus-border: 1px solid #4D4D4D;
 
   --qelp-product-tiles-active-color: #801500;
   --qelp-product-tiles-active-background-color: #E2E4E1;
   --qelp-product-tiles-active-box-shadow: none;
-  --qelp-product-tiles-active-border: 2px solid #CD0400;
+  --qelp-product-tiles-active-border: 1px solid #CD0400;
 
   --qelp-product-tiles-border-radius: none;
 
   /* Manufacturer Tiles */
   --qelp-manufacturer-tiles-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-  --qelp-manufacturer-tiles-border: 2px solid transparent;
+  --qelp-manufacturer-tiles-border: 1px solid transparent;
 
   --qelp-manufacturer-tiles-hover-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
-  --qelp-manufacturer-tiles-hover-border: 2px solid #CD0400;
+  --qelp-manufacturer-tiles-hover-border: 1px solid #CD0400;
 
   --qelp-manufacturer-tiles-focus-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
-  --qelp-manufacturer-tiles-focus-border: 2px solid #4D4D4D;
+  --qelp-manufacturer-tiles-focus-border: 1px solid #4D4D4D;
 
   --qelp-manufacturer-tiles-active-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
-  --qelp-manufacturer-tiles-active-border: 2px solid #CD0400;
+  --qelp-manufacturer-tiles-active-border: 1px solid #CD0400;
 
   --qelp-manufacturer-tiles-border-radius: none;
 
@@ -287,7 +287,7 @@
   --qelp-breadcrumb-font-color: #CD0400;
   --qelp-breadcrumb-font-color-hover: #DF2700;
   --qelp-breadcrumb-font-color-active: #801500;
-  --qelp-breadcrumb-active-font-color: #555555;
+  --qelp-breadcrumb-active-font-color: #777777;
 
   /* NAVIGATION LINKS VARIABLES */
 
@@ -304,11 +304,11 @@
 
   /* CATEGORY TOPICS VARIABLES */
 
-  --qelp-category-topics-title-font-family: 'Foro Sans';
-  --qelp-category-topics-title-font-size: 20px;
+  --qelp-category-topics-title-font-family: 'Mr Alex';
+  --qelp-category-topics-title-font-size: 36px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
-  --qelp-category-topics-title-text-color: #000000;
+  --qelp-category-topics-title-text-color: #555555;
 
   /* LIST ITEMS VARIABLES */
 
@@ -316,9 +316,9 @@
   --qelp-list-items-font-size: 16px;
   --qelp-list-items-line-height: 22px;
   --qelp-list-items-font-weight: 400;
-  --qelp-list-items-text-color: #595B61;
-  --qelp-list-items-text-color-hover: #3F4145;
-  --qelp-list-items-text-color-active: #27282B;
+  --qelp-list-items-text-color: #CD0400;
+  --qelp-list-items-text-color-hover: #DF2700;
+  --qelp-list-items-text-color-active: #801500;
   --qelp-list-items-icon-color: #CD0400;
 
   /* FEATURED COMPONENTS VARIABLES */
