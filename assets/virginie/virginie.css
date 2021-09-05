@@ -227,6 +227,21 @@
 
   --qelp-manufacturer-tiles-border-radius: 20px;
 
+  /* Featured Manufacturer Tiles */
+  --qelp-featured-manufacturer-tiles-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-border: 1px solid #CED4DA;
+
+  --qelp-featured-manufacturer-tiles-hover-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-hover-border: 1px solid #CED4DA;
+
+  --qelp-featured-manufacturer-tiles-focus-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-focus-border: 1px solid #4D4D4D;
+
+  --qelp-featured-manufacturer-tiles-active-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-active-border: 1px solid #CED4DA;
+
+  --qelp-featured-manufacturer-tiles-border-radius: 5px;
+
   /* OS Tiles */
   --qelp-os-tiles-color: #ED0000;
   --qelp-os-tiles-background-color: #FFFFFF;
@@ -249,6 +264,11 @@
   --qelp-os-tiles-active-border: 2px solid #ED0000;
 
   --qelp-os-tiles-border-radius: 5px;
+
+  /* SEARCHBOX GENERAL VARIABLES */
+
+  --qelp-searchbox-border: 1px solid #999999;
+  --qelp-searchbox-border-radius: 50px;
 
   /* ACCORDION VARIABLES */
 
