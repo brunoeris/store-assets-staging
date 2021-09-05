@@ -40,13 +40,14 @@
   --qelp-error:#CD0400;
 
   /* FONT VARIABLES */
-  --qelp-font-family: 'Mr Alex';
-  --qelp-font-family-light: 'Mr Alex Light';
-  --qelp-font-family-bold: 'Mr Alex Bold';
 
-  --qelp-font-family-secondary: 'Foro Sans';
-  --qelp-font-family-secondary-light: 'Foro Sans Light';
-  --qelp-font-family-secondary-bold: 'Foro Sans Bold';
+  --qelp-font-family: 'Foro Sans';
+  --qelp-font-family-light: 'Foro Sans Light';
+  --qelp-font-family-bold: 'Foro Sans';
+
+  --qelp-font-family-secondary: 'Mr Alex';
+  --qelp-font-family-secondary-light: 'Mr Alex Light';
+  --qelp-font-family-secondary-bold: 'Mr Alex';
 
   --qelp-h1-font-family: 'Mr Alex';
   --qelp-h1-font-size: 48px;
@@ -84,27 +85,27 @@
   --qelp-h3-mobile-font-weight: 700;
   --qelp-h3-mobile-color: #000000;
 
-  --qelp-body-font-family: 'Circular Book';
+  --qelp-body-font-family: 'Foro Sans';
   --qelp-body-font-size: 16px;
   --qelp-body-line-height: 22px;
   --qelp-body-font-weight: 400;
 
-  --qelp-body-bold-font-family: 'Circular Book';
+  --qelp-body-bold-font-family: 'Foro Sans';
   --qelp-body-bold-font-size: 16px;
   --qelp-body-bold-line-height: 22px;
   --qelp-body-bold-font-weight: 700;
 
-  --qelp-body-cards-font-family: 'Circular Book';
-  --qelp-body-cards-font-size: 12px;
-  --qelp-body-cards-line-height: 15px;
+  --qelp-body-cards-font-family: 'Mr Alex';
+  --qelp-body-cards-font-size: 20px;
+  --qelp-body-cards-line-height: 30px;
   --qelp-body-cards-font-weight: 400;
 
-  --qelp-body-cards-mobile-font-family: 'Circular Book';
-  --qelp-body-cards-mobile-font-size: 12px;
-  --qelp-body-cards-mobile-line-height: 15px;
+  --qelp-body-cards-mobile-font-family: 'Mr Alex';
+  --qelp-body-cards-mobile-font-size: 20px;
+  --qelp-body-cards-mobile-line-height: 30px;
   --qelp-body-cards-mobile-font-weight: 400;
 
-  --qelp-small-font-family: 'Circular Book';
+  --qelp-small-font-family: 'Foro Sans';
   --qelp-small-font-size: 12px;
   --qelp-small-line-height: 15px;
   --qelp-small-font-weight: 400;
@@ -112,7 +113,7 @@
   /* BUTTON VARIABLES */
 
   /* Normal - size and font */
-  --qelp-button-normal-font-family: 'Circular Book';
+  --qelp-button-normal-font-family: 'Foro Sans';
   --qelp-button-normal-font-size: 14px;
   --qelp-button-normal-line-height: 13px;
   --qelp-button-normal-font-weight: 600;
@@ -120,7 +121,7 @@
   --qelp-button-normal-text-transform: uppercase;
 
   /* Large - size and font */
-  --qelp-button-large-font-family: 'Circular Book';
+  --qelp-button-large-font-family: 'Foro Sans';
   --qelp-button-large-font-size: 16px;
   --qelp-button-large-line-height: 13px;
   --qelp-button-large-font-weight: 600;
@@ -128,7 +129,7 @@
   --qelp-button-large-text-transform: uppercase;
 
   /* Primary - styles and colors */
-  --qelp-button-primary-background-color: #CD0400;
+  --qelp-button-primary-background-color: #DF2700;
   --qelp-button-primary-color: #FFFFFF;
   --qelp-button-primary-text-decoration: none;
 
@@ -152,7 +153,7 @@
   --qelp-button-primary-disabled-color: #FFFFFF;
 
   /* Secondary - styles and colors */
-  --qelp-button-secondary-background-color: #E2E4E1;
+  --qelp-button-secondary-background-color: #E6E8E5;
   --qelp-button-secondary-color: #575756;
   --qelp-button-secondary-border: 1px solid transparent;
   --qelp-button-secondary-text-decoration: none;
@@ -186,60 +187,60 @@
 
   /* Product Tiles */
   --qelp-product-tiles-color: #CD0400;
-  --qelp-product-tiles-background-color: #F8F8F8;
+  --qelp-product-tiles-background-color: #E2E4E1;
   --qelp-product-tiles-box-shadow: none;
   --qelp-product-tiles-border: 2px solid transparent;
 
   --qelp-product-tiles-hover-color: #DF2700;
-  --qelp-product-tiles-hover-background-color: #F8F8F8;
+  --qelp-product-tiles-hover-background-color: #E2E4E1;
   --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
   --qelp-product-tiles-hover-border: 2px solid transparent;
 
   --qelp-product-tiles-focus-color: #801500;
-  --qelp-product-tiles-focus-background-color: #F8F8F8;
+  --qelp-product-tiles-focus-background-color: #E2E4E1;
   --qelp-product-tiles-focus-box-shadow: none;
   --qelp-product-tiles-focus-border: 2px solid #4D4D4D;
 
   --qelp-product-tiles-active-color: #801500;
-  --qelp-product-tiles-active-background-color: #F8F8F8;
+  --qelp-product-tiles-active-background-color: #E2E4E1;
   --qelp-product-tiles-active-box-shadow: none;
   --qelp-product-tiles-active-border: 2px solid #CD0400;
 
-  --qelp-product-tiles-border-radius: 5px;
+  --qelp-product-tiles-border-radius: none;
 
   /* Manufacturer Tiles */
-  --qelp-manufacturer-tiles-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   --qelp-manufacturer-tiles-border: 2px solid transparent;
 
-  --qelp-manufacturer-tiles-hover-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-hover-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
-  --qelp-manufacturer-tiles-hover-border: 2px solid transparent;
+  --qelp-manufacturer-tiles-hover-border: 2px solid #CD0400;
 
-  --qelp-manufacturer-tiles-focus-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-focus-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
   --qelp-manufacturer-tiles-focus-border: 2px solid #4D4D4D;
 
-  --qelp-manufacturer-tiles-active-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-active-background-color: #E2E4E1;
   --qelp-manufacturer-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
   --qelp-manufacturer-tiles-active-border: 2px solid #CD0400;
 
-  --qelp-manufacturer-tiles-border-radius: 20px;
+  --qelp-manufacturer-tiles-border-radius: none;
 
   /* Featured Manufacturer Tiles */
-  --qelp-featured-manufacturer-tiles-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-background-color: #E2E4E1;
   --qelp-featured-manufacturer-tiles-border: 1px solid #CED4DA;
 
-  --qelp-featured-manufacturer-tiles-hover-background-color: transparent;
-  --qelp-featured-manufacturer-tiles-hover-border: 1px solid #CED4DA;
+  --qelp-featured-manufacturer-tiles-hover-background-color: #E2E4E1;
+  --qelp-featured-manufacturer-tiles-hover-border: 1px solid #CD0400;
 
-  --qelp-featured-manufacturer-tiles-focus-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-focus-background-color: #E2E4E1;
   --qelp-featured-manufacturer-tiles-focus-border: 1px solid #4D4D4D;
 
-  --qelp-featured-manufacturer-tiles-active-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-active-background-color: #E2E4E1;
   --qelp-featured-manufacturer-tiles-active-border: 1px solid #CED4DA;
 
-  --qelp-featured-manufacturer-tiles-border-radius: 5px;
+  --qelp-featured-manufacturer-tiles-border-radius: none;
 
   /* OS Tiles */
   --qelp-os-tiles-color: #CD0400;
@@ -271,25 +272,25 @@
 
   /* ACCORDION VARIABLES */
 
-  --qelp-accordion-title-font-family: 'Circular Book';
+  --qelp-accordion-title-font-family: 'Foro Sans';
   --qelp-accordion-title-font-size: 20px;
   --qelp-accordion-title-line-height: 30px;
   --qelp-accordion-title-font-weight: 700;
 
   /* BREADCRUMB VARIABLES */
 
-  --qelp-breadcrumb-font-family: 'Circular Book';
-  --qelp-breadcrumb-font-size: 20px;
-  --qelp-breadcrumb-line-height: 30px;
+  --qelp-breadcrumb-font-family: 'Foro Sans';
+  --qelp-breadcrumb-font-size: 16px;
+  --qelp-breadcrumb-line-height: 22px;
   --qelp-breadcrumb-font-weight: 700;
   --qelp-breadcrumb-font-color: #CD0400;
   --qelp-breadcrumb-font-color-hover: #DF2700;
   --qelp-breadcrumb-font-color-active: #801500;
-  --qelp-breadcrumb-active-font-color: #444444;
+  --qelp-breadcrumb-active-font-color: #555555;
 
   /* NAVIGATION LINKS VARIABLES */
 
-  --qelp-navigation-links-font-family: 'Circular Book';
+  --qelp-navigation-links-font-family: 'Foro Sans';
   --qelp-navigation-links-font-size: 16px;
   --qelp-navigation-links-line-height: 22px;
   --qelp-navigation-links-font-weight: 400;
@@ -302,7 +303,7 @@
 
   /* CATEGORY TOPICS VARIABLES */
 
-  --qelp-category-topics-title-font-family: 'Circular Book';
+  --qelp-category-topics-title-font-family: 'Foro Sans';
   --qelp-category-topics-title-font-size: 20px;
   --qelp-category-topics-title-line-height: 30px;
   --qelp-category-topics-title-font-weight: 700;
@@ -310,7 +311,7 @@
 
   /* LIST ITEMS VARIABLES */
 
-  --qelp-list-items-font-family: 'Circular Book';
+  --qelp-list-items-font-family: 'Foro Sans';
   --qelp-list-items-font-size: 16px;
   --qelp-list-items-line-height: 22px;
   --qelp-list-items-font-weight: 400;
