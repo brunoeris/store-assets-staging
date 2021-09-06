@@ -193,7 +193,7 @@
 
   --qelp-product-tiles-hover-color: #DF2700;
   --qelp-product-tiles-hover-background-color: #E2E4E1;
-  --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, .12), 0px 8px 10px rgba(0, 0, 0, .2);
   --qelp-product-tiles-hover-border: 1px solid #CD0400;
 
   --qelp-product-tiles-focus-color: #801500;
