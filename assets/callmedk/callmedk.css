@@ -15,9 +15,6 @@
   --qelp-headers-secondary:#E60032;
   --qelp-headers-secondary-hover:#D10B2C;
   --qelp-headers-secondary-active:#80001C;
-  --qelp-headers-dark-bg:#FFFFFF;
-  --qelp-headers-dark-bg-hover:#FFFFFF;
-  --qelp-headers-dark-bg-active:#FFFFFF;
   --qelp-body:#444444;
   --qelp-body-hover:#262626;
   --qelp-body-active:#0D0D0D;
@@ -135,6 +132,7 @@
   --qelp-button-primary-hover-background-color: #D10B2C;
   --qelp-button-primary-hover-color: #FFFFFF;
   --qelp-button-primary-hover-text-decoration: none;
+  --qelp-button-primary-hover-box-shadow: none;
 
   --qelp-button-primary-focus-border: 1px solid #E60032;
   --qelp-button-primary-focus-outline: none;
@@ -146,10 +144,12 @@
   --qelp-button-primary-active-text-decoration: none;
   --qelp-button-primary-active-background-color: #80001C;
   --qelp-button-primary-active-color: #FFFFFF;
+  --qelp-button-primary-active-box-shadow: none;
 
   --qelp-button-primary-disabled-text-decoration: none;
   --qelp-button-primary-disabled-background-color: #A8A8AC;
   --qelp-button-primary-disabled-color: #FFFFFF;
+  --qelp-button-primary-disabled-box-shadow: none;
 
   /* Secondary - styles and colors */
   --qelp-button-secondary-background-color: rgba(230, 0, 50, 0.5);
@@ -161,6 +161,7 @@
   --qelp-button-secondary-hover-border: 1px solid rgba(209, 11, 44, 0.5);
   --qelp-button-secondary-hover-color: #FFFFFF;
   --qelp-button-secondary-hover-background-color: rgba(209, 11, 44, 0.5);
+  --qelp-button-secondary-hover-box-shadow: none;
 
   --qelp-button-secondary-focus-outline: none;
   --qelp-button-secondary-focus-text-decoration: none;
@@ -173,11 +174,13 @@
   --qelp-button-secondary-active-border: 1px solid rgba(230, 0, 50, 0.5);
   --qelp-button-secondary-active-color: #FFFFFF;
   --qelp-button-secondary-active-background-color: rgba(230, 0, 50, 0.5);
+  -qelp-button-secondary-active-box-shadow: none;
 
   --qelp-button-secondary-disabled-text-decoration: none;
   --qelp-button-secondary-disabled-border: 1px solid #A8A8AC;
   --qelp-button-secondary-disabled-color: #FFFFFF;
   --qelp-button-secondary-disabled-background-color: #A8A8AC;
+  --qelp-button-secondary-disabled-box-shadow: none;
 
   /* Others - general */
   --qelp-button-border-radius: 4px;
