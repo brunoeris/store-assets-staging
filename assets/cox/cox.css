@@ -1,0 +1,355 @@
+:root {
+  /* GENERAL COLOR VARIABLES */
+  --qelp-link:#0F5C95;
+  --qelp-link-hover:#0F5C95;
+  --qelp-link-active:#0F5C95;
+  --qelp-link-secondary:#0F5C95;
+  --qelp-link-secondary-hover:#0F5C95;
+  --qelp-link-secondary-active:#0F5C95;
+  --qelp-accent:#00ACF8;
+  --qelp-accent-hover:#00ACF8;
+  --qelp-accent-active:#00ACF8;
+  --qelp-headers:#202020;
+  --qelp-headers-hover:#202020;
+  --qelp-headers-active:#202020;
+  --qelp-headers-secondary:#202020;
+  --qelp-headers-secondary-hover:#202020;
+  --qelp-headers-secondary-active:#202020;
+  --qelp-body:#202020;
+  --qelp-body-hover:#202020;
+  --qelp-body-active:#202020;
+  --qelp-muted:#7B7B7B;
+  --qelp-muted-hover:#7B7B7B;
+  --qelp-muted-active:#7B7B7B;
+  --qelp-line:#E3E6E8;
+  --qelp-line-hover:#E3E6E8;
+  --qelp-line-active:#E3E6E8;
+  --qelp-tint:#EAEFF0;
+  --qelp-tint-hover:#EAEFF0;
+  --qelp-tint-active:#EAEFF0;
+  --qelp-light:#FFFFFF;
+  --qelp-background:#EBEFF0;
+  --qelp-background-accent:#b4e8ff;
+  --qelp-background-light:#EBEFF0;
+  --qelp-background-dark:#000000;
+  --qelp-qlicker:#009AE0;
+  --qelp-qlicker-pulse:#285A93;
+  --qelp-error:#D8544C;
+
+  /* FONT VARIABLES */
+  --qelp-font-family: 'Cera';
+  --qelp-font-family-light: 'Cera';
+  --qelp-font-family-bold: 'Cera';
+
+  --qelp-font-family-secondary: 'Cera';
+  --qelp-font-family-secondary-light: 'Cera';
+  --qelp-font-family-secondary-bold: 'Cera';
+
+  --qelp-h1-font-family: 'Cera';
+  --qelp-h1-font-size: 50px;
+  --qelp-h1-line-height: 54px;
+  --qelp-h1-font-weight: 700;
+  --qelp-h1-color: #202020;
+
+  --qelp-h1-mobile-font-family: 'Cera';
+  --qelp-h1-mobile-font-size: 32px;
+  --qelp-h1-mobile-line-height: 40px;
+  --qelp-h1-mobile-font-weight: 700;
+  --qelp-h1-mobile-color: #202020;
+
+  --qelp-h2-font-family: 'Cera';
+  --qelp-h2-font-size: 24px;
+  --qelp-h2-line-height: 35px;
+  --qelp-h2-font-weight: 700;
+  --qelp-h2-color: #202020;
+
+  --qelp-h2-mobile-font-family: 'Cera';
+  --qelp-h2-mobile-font-size: 24px;
+  --qelp-h2-mobile-line-height: 35px;
+  --qelp-h2-mobile-font-weight: 700;
+  --qelp-h2-mobile-color: #202020;
+
+  --qelp-h3-font-family: 'Cera';
+  --qelp-h3-font-size: 20px;
+  --qelp-h3-line-height: 30px;
+  --qelp-h3-font-weight: 700;
+  --qelp-h3-color: #202020;
+
+  --qelp-h3-mobile-font-family: 'Cera';
+  --qelp-h3-mobile-font-size: 20px;
+  --qelp-h3-mobile-line-height: 30px;
+  --qelp-h3-mobile-font-weight: 700;
+  --qelp-h3-mobile-color: #202020;
+
+  --qelp-body-font-family: 'Cera';
+  --qelp-body-font-size: 16px;
+  --qelp-body-line-height: 20px;
+  --qelp-body-font-weight: 400;
+
+  --qelp-body-bold-font-family: 'Cera';
+  --qelp-body-bold-font-size: 16px;
+  --qelp-body-bold-line-height: 22px;
+  --qelp-body-bold-font-weight: 700;
+
+  --qelp-body-cards-font-family: 'Cera';
+  --qelp-body-cards-font-size: 13px;
+  --qelp-body-cards-line-height: 15px;
+  --qelp-body-cards-font-weight: 400;
+
+  --qelp-body-cards-mobile-font-family: 'Cera';
+  --qelp-body-cards-mobile-font-size: 13px;
+  --qelp-body-cards-mobile-line-height: 15px;
+  --qelp-body-cards-mobile-font-weight: 400;
+
+  --qelp-small-font-family: 'Cera';
+  --qelp-small-font-size: 12px;
+  --qelp-small-line-height: 15px;
+  --qelp-small-font-weight: 400;
+
+  /* BUTTON VARIABLES - CTA */
+
+  /* Normal - size and font */
+  --qelp-button-normal-font-family: 'Cera';
+  --qelp-button-normal-font-size: 16px;
+  --qelp-button-normal-line-height: 20px;
+  --qelp-button-normal-font-weight: 500;
+  --qelp-button-normal-min-width: 68px;
+  --qelp-button-normal-text-transform: none;
+
+  /* Large - size and font */
+  --qelp-button-large-font-family: 'Cera';
+  --qelp-button-large-font-size: 16px;
+  --qelp-button-large-line-height: 20px;
+  --qelp-button-large-font-weight: 500;
+  --qelp-button-large-min-width: 78px;
+  --qelp-button-large-text-transform: none;
+
+  /* Primary - styles and colors */
+  --qelp-button-primary-background-color: #0F5C95;
+  --qelp-button-primary-color: #FFFFFF;
+  --qelp-button-primary-text-decoration: none;
+
+  --qelp-button-primary-hover-background-color: #0F5C95;
+  --qelp-button-primary-hover-color: #FFFFFF;
+  --qelp-button-primary-hover-text-decoration: none;
+  --qelp-button-primary-hover-box-shadow: 0px 3px 6px rgba(60, 60, 60, 0.15), 0px 3px 5px rgba(0, 0, 0, 0.25);
+
+  --qelp-button-primary-focus-border: 1px solid transparent;
+  --qelp-button-primary-focus-outline: none;
+  --qelp-button-primary-focus-text-decoration: none;
+  --qelp-button-primary-focus-background-color: #0F5C95;
+  --qelp-button-primary-focus-color: #FFFFFF;
+  --qelp-button-primary-focus-box-shadow: 0px 3px 6px rgba(60, 60, 60, 0.15), 0px 3px 5px rgba(0, 0, 0, 0.25);
+
+  --qelp-button-primary-active-text-decoration: none;
+  --qelp-button-primary-active-background-color: #0F5C95;
+  --qelp-button-primary-active-color: #FFFFFF;
+  --qelp-button-primary-active-box-shadow: 0px 3px 6px rgba(60, 60, 60, 0.15), 0px 3px 5px rgba(0, 0, 0, 0.25);
+
+  --qelp-button-primary-disabled-text-decoration: none;
+  --qelp-button-primary-disabled-background-color: #DCDCDC;
+  --qelp-button-primary-disabled-color: #FFFFFF;
+  --qelp-button-primary-disabled-box-shadow: none;
+
+  /* Secondary - styles and colors */
+  --qelp-button-secondary-background-color: transparent;
+  --qelp-button-secondary-color: #0F5C95;
+  --qelp-button-secondary-border: 2px solid #0F5C95;
+  --qelp-button-secondary-text-decoration: none;
+
+  --qelp-button-secondary-hover-text-decoration: none;
+  --qelp-button-secondary-hover-border: 2px solid #0F5C95;
+  --qelp-button-secondary-hover-color: #0F5C95;
+  --qelp-button-secondary-hover-background-color: transparent;
+  --qelp-button-secondary-hover-box-shadow: none;
+
+  --qelp-button-secondary-focus-outline: none;
+  --qelp-button-secondary-focus-text-decoration: none;
+  --qelp-button-secondary-focus-border: 2px solid #0F5C95;
+  --qelp-button-secondary-focus-color: #0F5C95;
+  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #333333;
+  --qelp-button-secondary-focus-background-color: transparent;
+
+  --qelp-button-secondary-active-text-decoration: none;
+  --qelp-button-secondary-active-border: 2px solid #0F5C95;
+  --qelp-button-secondary-active-color: #0F5C95;
+  --qelp-button-secondary-active-background-color: transparent;
+  --qelp-button-secondary-active-box-shadow: none;
+
+  --qelp-button-secondary-disabled-text-decoration: none;
+  --qelp-button-secondary-disabled-border: 2px solid #A2A2A2;
+  --qelp-button-secondary-disabled-color: #A2A2A2;
+  --qelp-button-secondary-disabled-background-color: transparent;
+  --qelp-button-secondary-disabled-box-shadow: none;
+
+  /* Others button rules - general */
+  --qelp-button-border-radius: 50px;
+
+  /* CARDS VARIABLES */
+
+  /* Product Tiles */
+  --qelp-product-tiles-color: #202021;
+  --qelp-product-tiles-background-color: transparent;
+  --qelp-product-tiles-box-shadow: none;
+  --qelp-product-tiles-border: 1px solid #B0C2CC;
+
+  --qelp-product-tiles-hover-color: #202021;
+  --qelp-product-tiles-hover-background-color: transparent;
+  --qelp-product-tiles-hover-box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  --qelp-product-tiles-hover-border: 1px solid #B0C2CC;
+
+  --qelp-product-tiles-focus-color: #202021;
+  --qelp-product-tiles-focus-background-color: transparent;
+  --qelp-product-tiles-focus-box-shadow: none;
+  --qelp-product-tiles-focus-border: 1px solid #4D4D4D;
+
+  --qelp-product-tiles-active-color: #202021;
+  --qelp-product-tiles-active-background-color: transparent;
+  --qelp-product-tiles-active-box-shadow: none;
+  --qelp-product-tiles-active-border: 1px solid #B0C2CC;
+
+  --qelp-product-tiles-border-radius: 6px;
+
+  /* Manufacturer Tiles */
+  --qelp-manufacturer-tiles-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  --qelp-manufacturer-tiles-border: 2px solid transparent;
+
+  --qelp-manufacturer-tiles-hover-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+  --qelp-manufacturer-tiles-hover-border: 2px solid transparent;
+
+  --qelp-manufacturer-tiles-focus-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-manufacturer-tiles-focus-border: 2px solid #4D4D4D;
+
+  --qelp-manufacturer-tiles-active-background-color: #FFFFFF;
+  --qelp-manufacturer-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-manufacturer-tiles-active-border: 2px solid #00AAFF;
+
+  --qelp-manufacturer-tiles-border-radius: 20px;
+
+  /* Featured Manufacturer Tiles */
+  --qelp-featured-manufacturer-tiles-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-border: 1px solid #B0C2CC;
+
+  --qelp-featured-manufacturer-tiles-hover-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-hover-border: 1px solid #B0C2CC;
+
+  --qelp-featured-manufacturer-tiles-focus-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-focus-border: 1px solid #B0C2CC;
+
+  --qelp-featured-manufacturer-tiles-active-background-color: transparent;
+  --qelp-featured-manufacturer-tiles-active-border: 1px solid #B0C2CC;
+
+  --qelp-featured-manufacturer-tiles-border-radius: 6px;
+
+  /* OS Tiles */
+  --qelp-os-tiles-color: #00AAFF;
+  --qelp-os-tiles-background-color: #FFFFFF;
+  --qelp-os-tiles-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-os-tiles-border: 2px solid transparent;
+
+  --qelp-os-tiles-hover-color: #0088CC;
+  --qelp-os-tiles-hover-background-color: #FFFFFF;
+  --qelp-os-tiles-hover-box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+  --qelp-os-tiles-hover-border: 2px solid transparent;
+
+  --qelp-os-tiles-focus-color: #006699;
+  --qelp-os-tiles-focus-background-color: #FFFFFF;
+  --qelp-os-tiles-focus-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-os-tiles-focus-border: 2px solid #4D4D4D;
+
+  --qelp-os-tiles-active-color: #006699;
+  --qelp-os-tiles-active-background-color: #FFFFFF;
+  --qelp-os-tiles-active-box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  --qelp-os-tiles-active-border: 2px solid #00AAFF;
+
+  --qelp-os-tiles-border-radius: 5px;
+
+  /* SEARCHBOX GENERAL VARIABLES */
+
+  --qelp-searchbox-border: 2px solid #B0C2CC;
+  --qelp-searchbox-border-radius: 50px;
+  --qelp-searchbox-result-background: #F8F8F8;
+
+  /* ACCORDION VARIABLES */
+
+  --qelp-accordion-title-font-family: 'Cera';
+  --qelp-accordion-title-font-size: 20px;
+  --qelp-accordion-title-line-height: 30px;
+  --qelp-accordion-title-font-weight: 400;
+
+  /* BREADCRUMB VARIABLES */
+
+  --qelp-breadcrumb-font-family: 'Cera';
+  --qelp-breadcrumb-font-size: 20px;
+  --qelp-breadcrumb-line-height: 30px;
+  --qelp-breadcrumb-font-weight: 400;
+  --qelp-breadcrumb-font-color: #0F5C95;
+  --qelp-breadcrumb-font-color-hover: #0F5C95;
+  --qelp-breadcrumb-font-color-active: #0F5C95;
+  --qelp-breadcrumb-active-font-color: #0F5C95;
+
+
+  /* NAVIGATION LINKS VARIABLES */
+
+  --qelp-navigation-links-font-family: 'Cera';
+  --qelp-navigation-links-font-size: 16px;
+  --qelp-navigation-links-line-height: 22px;
+  --qelp-navigation-links-font-weight: 400;
+  --qelp-navigation-links-icon-color: #0F5C95;
+  --qelp-navigation-links-icon-color-hover: #0F5C95;
+  --qelp-navigation-links-icon-color-active: #0F5C95;
+  --qelp-navigation-links-text-color: #0F5C95;
+  --qelp-navigation-links-text-color-hover: #0F5C95;
+  --qelp-navigation-links-text-color-active: #0F5C95;
+
+  /* CATEGORY TOPICS VARIABLES */
+
+  --qelp-category-topics-title-font-family: 'Cera';
+  --qelp-category-topics-title-font-size: 18px;
+  --qelp-category-topics-title-line-height: 30px;
+  --qelp-category-topics-title-font-weight: 400;
+  --qelp-category-topics-title-text-color: #202021;
+
+  /* LIST ITEMS VARIABLES */
+
+  --qelp-list-items-font-family: 'Cera';
+  --qelp-list-items-font-size: 16px;
+  --qelp-list-items-line-height: 22px;
+  --qelp-list-items-font-weight: 400;
+  --qelp-list-items-text-color: #0F5C95;
+  --qelp-list-items-text-color-hover: #0F5C95;
+  --qelp-list-items-text-color-active: #0F5C95;
+  --qelp-list-items-icon-color: #0F5C95;
+
+  /* FEATURED COMPONENTS VARIABLES */
+
+  /* Categories */
+  --qelp-featured-categories-button-position: flex-start;
+
+  /* Topics */
+  --qelp-featured-topics-button-position: flex-start;
+
+  /* Devices */
+  --qelp-featured-devices-button-position: flex-start;
+
+  /* Manufacturers */
+  --qelp-featured-manufacturers-button-position: flex-start;
+
+  /* All Category Topics */
+  --qelp-featured-category-topics-button-position: flex-start;
+
+
+  /* GENERAL VARIABLES */
+  --qelp-space-unit: 5px;
+
+  --qelp-spacer: 40px;
+  --qelp-spacer-mobile: 40px;
+}
+
+@font-face {
+  font-family: 'Cera';
+  src: local('Cera'), url('https://brunoeris.github.io/store-assets-staging/fonts/cera-basic.woff') format('woff');
+}
